@@ -26,8 +26,9 @@ Open the RBAC.jmx test plan and update the AuthManager settings to reflect your 
 
 ## Start a server using the full-ha configuration
 
+```
 ./bin/standalone.sh --server-config=standalone-full-ha.xml
-
+```
 
 
 
