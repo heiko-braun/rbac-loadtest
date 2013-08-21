@@ -1,6 +1,8 @@
-# Scope
+# Performance Criteria
 
-We currently test the performance of the following requests:
+## Retrieval of access control meta data
+
+We currently test the performance of the following request, which is typically used to bootstrap a management client:
 
 ```
 read-resource-description(access-control=trim-descriptions, operations=true, recursive-depth=2)
@@ -14,7 +16,7 @@ At the moment, three target resources are considered.
 - /susbystem=datasources
 - /subsystem=jacorb
 
-# Setup / Prerequisites
+# Installation & Setup / Prerequisites
 
 ## JMeter
 
